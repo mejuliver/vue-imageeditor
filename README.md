@@ -1,8 +1,5 @@
 # vue-imageeditor
-vue image editor base on camanjs and advance cropper 
-
-http://camanjs.com/
-https://norserium.github.io/vue-advanced-cropper/
+vue image editor base on [camanjs](http://camanjs.com/) and [advance cropper](https://norserium.github.io/vue-advanced-cropper/) 
 
 # import the package
 
