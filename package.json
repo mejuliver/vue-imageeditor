@@ -1,0 +1,26 @@
+{
+  "name": "vue-imageeditor",
+  "version": "1.0.0",
+  "description": "vue imageeditor base on camanjs and advance cropper",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mejuliver/vue-imageeditor.git"
+  },
+  "keywords": [
+    "camanjs",
+    "image",
+    "editor",
+    "advance",
+    "cropper"
+  ],
+  "author": "Juliver Galleto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mejuliver/vue-imageeditor/issues"
+  },
+  "homepage": "https://github.com/mejuliver/vue-imageeditor#readme"
+}
