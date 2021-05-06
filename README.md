@@ -2,7 +2,7 @@
 [vue image editor](https://www.npmjs.com/package/@mejuliver/vue-imageeditor) base on [camanjs](http://camanjs.com/) and [advance cropper](https://norserium.github.io/vue-advanced-cropper/) 
 
 # Installation
-```npm i @mejuliver/vue-imageeditor```
+```npm i @mejuliver/vue-imageeditor --save```
 
 # import the package
 

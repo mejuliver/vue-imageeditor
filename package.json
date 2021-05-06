@@ -1,6 +1,6 @@
 {
   "name": "@mejuliver/vue-imageeditor",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "vue imageeditor base on camanjs and advance cropper",
   "main": "main.js",
   "scripts": {
