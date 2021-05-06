@@ -329,7 +329,7 @@
 <script>
 	import { Cropper } from 'vue-advanced-cropper';
 	import 'vue-advanced-cropper/dist/style.css';
-	import tab from '~/components/utility/tab.vue';
+	import tab from './tab.vue';
 
 	export default{
 		props : [ 'inputname', 'inputaccept', 'inputvalue', 'inputplaceholder', 'inputclass' ],
