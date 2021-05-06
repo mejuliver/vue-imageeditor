@@ -603,12 +603,6 @@
 
 				this.$refs.canvas_container.appendChild(el);
 
-				// Caman("#img", function () {
-				//   // width, height, x, y
-				//   this.crop(100, 100);
-				//   // Still have to call render!
-				//   this.render();
-				// });
 			},
 			loadScript(src,callback){
 				var s,

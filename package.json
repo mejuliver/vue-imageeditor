@@ -1,6 +1,6 @@
 {
-  "name": "vue-imageeditor",
-  "version": "1.0.0",
+  "name": "@mejuliver/vue-imageeditor",
+  "version": "1.0.3",
   "description": "vue imageeditor base on camanjs and advance cropper",
   "main": "main.js",
   "scripts": {
@@ -21,6 +21,10 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/mejuliver/vue-imageeditor/issues"
+  },
+  "dependencies" : {
+    "vue": "^2.6.12",
+    "vue-advanced-cropper": "^1.5.0"
   },
   "homepage": "https://github.com/mejuliver/vue-imageeditor#readme"
 }
