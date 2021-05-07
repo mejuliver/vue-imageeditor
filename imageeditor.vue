@@ -4,7 +4,6 @@
     <div :class="'justmodal-shadow '+( modal_open ? 'active' : '' )"></div>
     <div :class="'justmodal-wrapper '+( modal_open ? 'active' : '' )">
       <div class="justmodal-container">
-        <i class="fa fa-times justmodal-close" @click="modal_open=false"></i>
         <div class="justmodal-content mt16">
           <div class="row">
             <div class="col-12 col-md-12 col-lg-12 col-12">
@@ -86,58 +85,58 @@
 											</div>
 											<div class="tab row">
 												<div class="col-4 mb16">
-													<a class="btn btn-success btn-primary btn-block" @click.prevent="camanEffects()" data-filter>Vintage</a>
+													<button class="btn btn-success btn-primary btn-block" style="margin:2px" @click.prevent="camanEffects()" data-filter>Vintage</button>
 												</div>
 												<div class="col-4 mb16">
-													<a class="btn btn-success btn-primary btn-block" @click.prevent="camanEffects()" data-filter="lomo">Lomo</a>
+													<button class="btn btn-success btn-primary btn-block" style="margin:2px" @click.prevent="camanEffects()" data-filter="lomo">Lomo</button>
 												</div>
 												<div class="col-4 mb16">
-													<a class="btn btn-success btn-primary btn-block" @click.prevent="camanEffects()" data-filter="clarity">Clarity</a>
+													<button class="btn btn-success btn-primary btn-block" style="margin:2px" @click.prevent="camanEffects()" data-filter="clarity">Clarity</button>
 												</div>
 												<div class="col-4 mb16">
-													<a class="btn btn-success btn-primary btn-block" @click.prevent="camanEffects()" data-filter="sinCity">Sin City</a>
+													<button class="btn btn-success btn-primary btn-block" style="margin:2px" @click.prevent="camanEffects()" data-filter="sinCity">Sin City</button>
 												</div>
 												<div class="col-4 mb16">
-													<a class="btn btn-success btn-primary btn-block" @click.prevent="camanEffects()" data-filter="sunrise">Sunrise</a>
+													<button class="btn btn-success btn-primary btn-block" style="margin:2px" @click.prevent="camanEffects()" data-filter="sunrise">Sunrise</button>
 												</div>
 												<div class="col-4 mb16">
-													<a class="btn btn-success btn-primary btn-block" @click.prevent="camanEffects()" data-filter="crossProcess">Cross Process</a>
+													<button class="btn btn-success btn-primary btn-block" style="margin:2px" @click.prevent="camanEffects()" data-filter="crossProcess">Cross Process</button>
 												</div>
 												<div class="col-4 mb16">
-													<a class="btn btn-success btn-primary btn-block" @click.prevent="camanEffects()" data-filter="orangePeel">Orange Peel</a>
+													<button class="btn btn-success btn-primary btn-block" style="margin:2px" @click.prevent="camanEffects()" data-filter="orangePeel">Orange Peel</button>
 												</div>
 												<div class="col-4 mb16">
-													<a class="btn btn-success btn-primary btn-block" @click.prevent="camanEffects()" data-filter="love">Love</a>
+													<button class="btn btn-success btn-primary btn-block" style="margin:2px" @click.prevent="camanEffects()" data-filter="love">Love</button>
 												</div>
 												<div class="col-4 mb16">
-													<a class="btn btn-success btn-primary btn-block" @click.prevent="camanEffects()" data-filter="grungy">Grungy</a>
+													<button class="btn btn-success btn-primary btn-block" style="margin:2px" @click.prevent="camanEffects()" data-filter="grungy">Grungy</button>
 												</div>
 												<div class="col-4 mb16">
-													<a class="btn btn-success btn-primary btn-block" @click.prevent="camanEffects()" data-filter="jarques">Jarques</a>
+													<button class="btn btn-success btn-primary btn-block" style="margin:2px" @click.prevent="camanEffects()" data-filter="jarques">Jarques</button>
 												</div>
 												<div class="col-4 mb16">
-													<a class="btn btn-success btn-primary btn-block" @click.prevent="camanEffects()" data-filter="pinhole">Pinhole</a>
+													<button class="btn btn-success btn-primary btn-block" style="margin:2px" @click.prevent="camanEffects()" data-filter="pinhole">Pinhole</button>
 												</div>
 												<div class="col-4 mb16">
-													<a class="btn btn-success btn-primary btn-block" @click.prevent="camanEffects()" data-filter="OldBoot">Old Boot</a>
+													<button class="btn btn-success btn-primary btn-block" style="margin:2px" @click.prevent="camanEffects()" data-filter="OldBoot">Old Boot</button>
 												</div>
 												<div class="col-4 mb16">
-													<a class="btn btn-success btn-primary btn-block" @click.prevent="camanEffects()" data-filter="glowingSun">Glowing Sun</a>
+													<button class="btn btn-success btn-primary btn-block" style="margin:2px" @click.prevent="camanEffects()" data-filter="glowingSun">Glowing Sun</button>
 												</div>
 												<div class="col-4 mb16">
-													<a class="btn btn-success btn-primary btn-block" @click.prevent="camanEffects()" data-filter="hazyDays">hazyDays</a>
+													<button class="btn btn-success btn-primary btn-block" style="margin:2px" @click.prevent="camanEffects()" data-filter="hazyDays">hazyDays</button>
 												</div>
 												<div class="col-4 mb16">
-													<a class="btn btn-success btn-primary btn-block" @click.prevent="camanEffects()" data-filter="herMajesty">Her Majesty</a>
+													<button class="btn btn-success btn-primary btn-block" style="margin:2px" @click.prevent="camanEffects()" data-filter="herMajesty">Her Majesty</button>
 												</div>
 												<div class="col-4 mb16">
-													<a class="btn btn-success btn-primary btn-block" @click.prevent="camanEffects()" data-filter="nostalgia">Nostalgia</a>
+													<button class="btn btn-success btn-primary btn-block" style="margin:2px" @click.prevent="camanEffects()" data-filter="nostalgia">Nostalgia</button>
 												</div>
 												<div class="col-4 mb16">
-													<a class="btn btn-success btn-primary btn-block" @click.prevent="camanEffects()" data-filter="hemingway">Hemingway</a>
+													<button class="btn btn-success btn-primary btn-block" style="margin:2px" @click.prevent="camanEffects()" data-filter="hemingway">Hemingway</button>
 												</div>
 												<div class="col-4 mb16">
-													<a class="btn btn-success btn-primary btn-block" @click.prevent="camanEffects()" data-filter="concentrate">Concentrate</a>
+													<button class="btn btn-success btn-primary btn-block" style="margin:2px" @click.prevent="camanEffects()" data-filter="concentrate">Concentrate</button>
 												</div>
 											</div>
 										</tab>
@@ -145,7 +144,8 @@
 								</div>
 								<div class="row">
 									<div class="col-12">
-										<a class="btn btn-primary m2 c-white" @click="saveImage()">Save</a><a class="btn m2" @click="resetFilter()">Reset</a>
+										<button class="btn btn-primary m2 c-white" @click="saveImage()" style="margin:2px;">Save</button><button class="btn m2" @click="resetFilter()" style="margin:2px;">Reset</button>
+										<button class="btn btn-default" @click="modal_open=false" style="margin:2px;">Close</button>
 									</div>
 								</div>
 							</div>
